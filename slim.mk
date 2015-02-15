@@ -19,13 +19,12 @@ $(call inherit-product, vendor/slim/config/gsm.mk)
 
 # Inherit some common CM stuff
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/u8951/full_u8951.mk)
 
 # Correct boot animation size for the screen
-TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_HEIGHT := 854
 TARGET_SCREEN_WIDTH := 480
 
 # Device name
