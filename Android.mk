@@ -16,6 +16,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
+LOCAL_DEX_PREOPT := false
+
 ifeq ($(TARGET_DEVICE),u8951)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
